@@ -8,7 +8,6 @@ const FirstComponent = () => {
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-12">
       <div className="  rounded-lg p-8 bg-blue-50/30">
-        {/* Header */}
         <div className="mb-8">
           <p className="text-gray-600 text-sm mb-2">
             Explore our classes and master trending skills!
@@ -20,9 +19,7 @@ const FirstComponent = () => {
           </h2>
         </div>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Main Course Card */}
           <div className="bg-red-500 rounded-2xl p-6 text-white shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 h-80 w-full flex flex-col justify-between relative">
             <div className="flex justify-end">
               <button className="bg-white/20 hover:bg-white/30 transition-colors text-white px-7 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
@@ -57,10 +54,8 @@ const FirstComponent = () => {
             </div>
           </div>
 
-          {/* Upcoming Courses */}
           <div className="bg-pink-100 rounded-2xl h-80 w-full shadow-md flex flex-col justify-between px-4 py-6">
             <div className="flex-1 flex items-center justify-center">
-              {/* Rotated Text */}
               <div className="transform rotate-270 origin-center text-center">
                 <div className="text-red-600 font-bold text-lg leading-tight">
                   Upcoming Courses
@@ -73,7 +68,6 @@ const FirstComponent = () => {
               </div>
             </div>
 
-            {/* Number */}
             <div className="text-center">
               <span className="text-7xl font-extrabold text-red-600 leading-none">
                 05
@@ -84,10 +78,8 @@ const FirstComponent = () => {
             </div>
           </div>
 
-          {/* Ongoing Courses */}
           <div className="bg-pink-100 rounded-2xl h-80 w-full shadow-md flex flex-col justify-between px-4 py-6">
             <div className="flex-1 flex items-center justify-center">
-              {/* Rotated Text */}
               <div className="transform rotate-270 origin-center text-center">
                 <div className="text-red-600 font-bold text-lg leading-tight">
                   Ongoing Courses
@@ -100,7 +92,6 @@ const FirstComponent = () => {
               </div>
             </div>
 
-            {/* Number */}
             <div className="text-center">
               <span className="text-7xl font-extrabold text-red-600 leading-none">
                 10

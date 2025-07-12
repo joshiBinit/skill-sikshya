@@ -1,6 +1,5 @@
 import { BookOpen, Target, Users, Trophy, Rocket } from "lucide-react";
 
-// Mock images - replace with your actual image imports
 import ClarityImage from "../assets/clarity.png";
 import DoingImage from "../assets/doing.png";
 import MentoredImage from "../assets/mentored.png";
@@ -67,7 +66,6 @@ const JourneyCard: React.FC<JourneyCardProps> = ({
   <div
     className={`${bgColor} relative rounded-3xl text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02] overflow-visible`}
   >
-    {/* Floating Image */}
     <div
       className={`absolute top-1/2 -translate-y-1/2 z-10 ${
         imagePosition === "left" ? "-left-16" : "-right-16"
@@ -80,13 +78,11 @@ const JourneyCard: React.FC<JourneyCardProps> = ({
       />
     </div>
 
-    {/* Content Container */}
     <div
       className={`min-h-[200px] p-6 ${
         imagePosition === "left" ? "pl-32" : "pr-32"
       }`}
     >
-      {/* Text Content */}
       <div className="relative z-20">
         <div className="flex items-center mb-3">
           <Icon className="w-6 h-6 text-white/90 mr-2" />

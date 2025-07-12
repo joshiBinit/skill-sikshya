@@ -31,9 +31,9 @@ const thirdComponent = () => {
     { Icon: Star, color: "text-purple-500", bg: "bg-purple-100" },
   ];
 
-  const imageRadius = 190; // more gap now
-  const iconRadius = 230; // more gap now
-  const containerSize = 440; // bigger container to fit everything
+  const imageRadius = 190;
+  const iconRadius = 230;
+  const containerSize = 440;
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-16">
